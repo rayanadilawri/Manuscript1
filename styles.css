@@ -45,7 +45,7 @@ p {
     color: purple;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    margin-left: 800px;
+    margin-left: 720px;
      margin-right: 150px;
 }
   
@@ -54,7 +54,7 @@ p {
     color: purple;
     font-size: 50px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 800px;
+    margin-left: 720px;
      margin-right: 150px;
 }
 
@@ -69,19 +69,19 @@ p {
 }
 
 .ps {
-    font-size: 28px;
+    font-size: 20px;
     color:blue; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 800px;
+    margin-right: 720px;
     margin-left: 100px;
 }
 
 .rg {
-    font-size: 28px;
+    font-size: 20px;
     color: purple;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 800px;
-     margin-right: 150px;
+    margin-left: 720px;
+     margin-right: 100px;
 }
 
 footer {
