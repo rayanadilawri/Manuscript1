@@ -1,75 +1,87 @@
-body{background-color: cornsilk;}
-
-Header { color: black; 
- font-family: 'Arial', sans-serif;
- text-align: center;
-margin-top: 30px;
+body {
+    background-color: cornsilk;
 }
 
-p { font-family: 'Arial', sans-serif;
-    font-size: 25px;
+Header { 
+    color: black; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+}
+
+p { 
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
     margin-left: 100px;
-     margin-right: 100px ;
+    margin-right: 100px ;
+    line-height: 1;
 }
 
 .title {
-    font-size: 100px;
+    font-size: 110px;
     font-family: Arial, Helvetica, sans-serif; }
+
  .Sub {
-        color: purple;
-        font-size: 40px; 
+    color: purple;
+    font-size: 55px; 
     }
-.Sarah1 {color: blue;
-font-size: 40px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-margin-top: 100px;
-margin-left: 250px;
-}
-.Sarah {color: blue;
-    font-size: 40px;
+
+.Sarah1 {
+    color: blue;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 100px;
+}   
+
+.Sarah {
+    color: blue;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
 }
+
 .Giampietro1 {
     color: purple;
-    font-size: 40px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-margin-left: 1200px;
-margin-right: 250px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-left: 800px;
+     margin-right: 150px;
 }
   
 
 .Giampietro {
     color: purple;
-    font-size: 40px; 
+    font-size: 50px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 1200px;
-     margin-right: 250px;
+    margin-left: 800px;
+     margin-right: 150px;
 }
 
 .Name {
     color: black;
     font-size: 20px; 
 }
+
 .date {
     color: black;
     font-size: 20px; 
 }
 
 .ps {
-    font-size: 20px;
+    font-size: 28px;
     color:blue; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-right: 1200px;
-        margin-left: 250px;
+    margin-right: 800px;
+    margin-left: 100px;
 }
+
 .rg {
-    font-size: 20px;
+    font-size: 28px;
     color: purple;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 1200px;
-     margin-right: 250px;
+    margin-left: 800px;
+     margin-right: 150px;
 }
 
 footer {
@@ -77,6 +89,8 @@ footer {
     color: grey;
     margin-bottom: 15px;
 }
+
+
 
 /* A link that hasn’t been visited. */
 a:link { color: black; }
