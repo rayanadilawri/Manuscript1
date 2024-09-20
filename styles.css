@@ -1,0 +1,60 @@
+body{background-color: cornsilk;}
+Header { color: black; }
+Header { font-family: 'Arial', sans-serif;}
+
+.title {
+    font-size: 100px;
+}
+#h1{
+color: Black;
+font-size: 70px;
+}
+
+.Sarah1 {color: blue;
+font-size: 40px;}
+.Sarah {color: blue;
+    font-size: 40px;}
+.Sub {
+    color: purple;
+    font-size: 40px; 
+}
+.Giampietro1 {
+    color: purple;
+    font-size: 40px; }
+
+.Giampietro {
+    color: purple;
+    font-size: 40px; 
+}
+.Name {
+    color: black;
+    font-size: 20px; 
+}
+.date {
+    color: black;
+    font-size: 20px; 
+}
+footer {
+    font-size: 10px;
+    color: grey;
+}
+.ps {
+    font-size: 20px;
+    color:blue; 
+}
+.rg {
+    font-size: 20px;
+    color: purple;
+}
+
+/* A link that hasn’t been visited. */
+a:link { color: black; }
+
+/* After you’ve visited the link. */
+a:visited { color: purple; }
+
+/* Change the color when the mouse is over it. */
+a:hover { color: blue; }
+
+/* And when the mouse is clicked. */
+a:active { color: hotpink; }
