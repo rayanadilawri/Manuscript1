@@ -2,14 +2,15 @@ h1 {
     font-size: 110px;
     font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 16px;
+    color: #333333;
 }
 
 body {
-    background-color: cornsilk; 
+    background-color: #FAF9F6; 
 }
 
 header { 
-    color: black; 
+    color: #333333; 
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin-top:  35px;
@@ -22,16 +23,17 @@ p {
     margin-right: 100px ;
     line-height: 1;
     margin-bottom: 10px;
+    color: #333333; 
 }
 
 
  .sub {
-    color: purple;
+    color: #333333;
     font-size: 55px; 
     }
 
 .sarah-fullname {
-    color: blue;
+    color:#003366;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 100px;
@@ -41,7 +43,7 @@ p {
 }   
 
 .sarah-name {
-    color: blue;
+    color:#003366;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 100px;
@@ -50,7 +52,7 @@ p {
 }
 
 .giampietro-fullname {
-    color: purple;
+    color:#940f0f;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     margin-left: 720px;
@@ -60,7 +62,7 @@ p {
   
 
 .giampietro-name {
-    color: purple;
+    color:#940f0f;
     font-size: 50px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 720px;
@@ -81,7 +83,7 @@ time {
 
 .sh {
     font-size: 20px;
-    color:blue; 
+    color:#003366; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 100px;
     margin-right: 720px;
@@ -92,7 +94,7 @@ time {
 
 .rg {
     font-size: 20px;
-    color: purple;
+    color:#940f0f;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-right: 100px;
     margin-left: 720px;
@@ -105,18 +107,23 @@ footer {
     font-size: 15px;
     color: grey;
     margin-bottom: 15px;
+    margin-left: 100px;
+    margin-top: 20px ;
 }
 
 
+i {
+    color: goldenrod;
+}
 
 /* A link that hasn’t been visited. */
 a:link { color: black; }
 
 /* After you’ve visited the link. */
-a:visited { color: purple; }
+a:visited { color:#085f63;}
 
 /* Change the color when the mouse is over it. */
-a:hover { color: blue; }
+a:hover { color: #49beb7;}
 
 /* And when the mouse is clicked. */
-a:active { color: hotpink; }
+a:active { color: #ff5959;}
