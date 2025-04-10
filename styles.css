@@ -1,288 +1,203 @@
-.reset.css
+/* --- styles.css --- */
 
 * {
     box-sizing: border-box;
     margin: 0;
-    overflow-x: hidden;
     padding: 0;
-}
-
-    
-header {
-    align-items: center;
-    margin: 0;
-/*overflow-x: hidden; */
-/*max-width: 100vw;*/
-    padding: 15px; 
-    padding-left: 100px;
- }
-
-.button {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
-    margin: 0;
-    padding-left: 150px;
-}
-
-h1 {
-    font-size: 5rem;
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 0.2em;
-    margin-top: 0.5em;
-    color: #A63446;   
-    margin: 0;
-    padding-left: 110px;
-    margin-left: 0.5em;
-    text-align: center;
-}
-
-.sub {
-    color: #333333;
-    font-size: 30px; 
-    margin-bottom: 20px;
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: grid;
-  place-items: center;
-  text-align: center;
-    /*width: 100vw;*/
-    padding-left: 100px;
-    margin-left: 0.5em;
-    text-align: center;
-
-    }
-
-    .name, time {
-        display: block;
-        text-align: center;
-        padding-left: 100px;
-        margin-left: 0.5em;
-        text-align: center;
-    }
-
-
-.name {
-    color:#333333;
-    font-size: 20px; 
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-time {
-    color: #333333;
-    font-size: 20px; 
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-body {
-    background-color: FBFEF9; 
-    /*padding: 1em;*/
-    width: 80%;
-    max-height: 100vh; 
-    margin: 0;
-    align-items: center; 
-  /*  overflow-x: hidden; */
-    
-}
-
-
-.intro { 
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-left: 14em;
-    line-height: 1.3;
-    color: #333333; 
-    text-align: center;  
-    padding: 15px; 
-    padding-left: 80px;
-}
-
-
-.sarah-fullname, .sarah-name, .giampietro-fullname, .giampietro-name
- { font-size: 3.5rem;
-padding-bottom: 0.5em; }
-
-.sarah-fullname, .sarah-name, .giampietro-fullname, .giampietro-nameintro, .sub, .sh, .rg, .response, .intro 
-{
-    max-width: 65ch;
-    min-width: 50%;  
-}
-
- .sh .rg
-{ font-size: 1.2rem; 
-    max-width: 65ch;
-    margin: 0 auto; 
-    padding: 1em; }
-    
-.sarah-fullname {
-    color: #075781;
-    margin-top: 50px;
-    font-family: "Saira Condensed", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 3em;
-     padding-left: 100px;
-    /*padding-right: 45em;*/
-}   
-
-.sarah-name {
-    color: #075781;
-    padding-bottom: 15px;
-    font-family: "Saira Condensed", sans-serif;
-     font-weight: 600;
-     font-style: normal;
-     font-size: 3em;
-     padding-left: 100px;
-}
-
-.giampietro-fullname {
-    color:#881549;
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-   /* padding-right: 150px; */
-    padding-left: 720px; 
-    margin-bottom: 10px;
-    font-size: 3em;
-}
+  }
   
-
-.giampietro-name {
-    color:#881549;
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
     font-family: "Saira Condensed", sans-serif;
+    background-color: #FBFEF9;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  body {
+    padding: 1rem;
+  }
+  
+  header {
+    padding: 1rem;
+    text-align: center;
+    background-color: #FBFEF9;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-family: "Silkscreen", sans-serif;
+    color: #A63446;
+    margin: 1rem 0;
+  }
+  
+  .sub {
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+  
+  .meta .name, time {
+    display: block;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .intro {
+    max-width: 65ch;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-style: italic;
+    background-color: #f5f5f5;
+    border-left: 4px solid goldenrod;
+  }
+  
+  .sarah-fullname, .sarah-name, .giampietro-fullname, .giampietro-name {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
     font-weight: 600;
-    font-style: normal;
-   /* margin-right: 150px;*/
-    margin-left: 720px;
-    margin-bottom: 10px;
-}
-    
-    
-
-.sh {
-    font-size: 20px;
-    color:#0C6291; 
-    padding-right: 45em;
-    padding-left: 100px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-    font-family: "Saira Condensed", sans-serif;
-    font-style: normal; 
+  }
+  
+  .sarah-fullname::before, .sarah-name::before {
+    content: "🎤 ";
+  }
+  .giampietro-fullname::before, .giampietro-name::before {
+    content: "🎙️ ";
+  }
+  
+  .sarah-fullname, .sarah-name {
+    color: #075781;
+  }
+  
+  .giampietro-fullname, .giampietro-name {
+    color: #881549;
+  }
+  
+  .sh, .rg {
+    font-size: 1.1rem;
+    margin: 0 auto 1rem;
+    padding: 0 1rem;
     max-width: 65ch;
-    width: 50px;
-}
-
-.rg {
-    font-size: 20px;
-    color:#881549;
-   /* padding-right: 150px; */
-    padding-left: 720px; 
-    margin-bottom: 10px;
-    line-height: 1.3;
-    font-family: "Saira Condensed", sans-serif;
-    font-style: normal; 
-    max-width: 65ch;
-
-}
-
-
-.shpause {
-        color: #0C6291;
-        font-size: 20px;
-       /* margin-right: 100px;*/
-        /*margin-left: 720px;*/ 
-        margin-bottom: 10px;
-        line-height: 1.3;
-        font-family: "Afacad Flux", sans-serif;
-        font-weight: 700;
-        padding-left: 100px;
-        padding-right: 720px; 
-
-}
-
-.rgpause {
-    color:#881549;
-    font-size: 20px;
-   /* margin-right: 100px;*/
-    /*margin-left: 720px;*/ 
-    margin-bottom: 10px;
-    line-height: 1.3;
+  }
+  
+  .sh {
+    color: #0C6291;
+  }
+  
+  .rg {
+    color: #881549;
+  }
+  
+  .shpause, .rgpause {
     font-family: "Afacad Flux", sans-serif;
     font-weight: 700;
-    padding-left: 720px; 
-
-}
-
-
-.response {
-   font-family:  "Silkscreen", sans-serif;
-   font-size: 3em;
-   color: #333333; 
-   padding-right: 45em;
-    padding-left: 100px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-    font-style: normal; 
-}
-
-.question {
-    color: #A63446; 
-font-size: 20px;
-font-family: "Saira Condensed", sans-serif;
-font-style: normal; 
-    padding-left: 100px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-}
-
-.responsetext {
-    color:#075781; 
-    font-size: 20px;
-    font-family: "Saira Condensed", sans-serif;
-    font-style: normal; 
-    padding-left: 100px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-}
-
-footer {
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+    max-width: 65ch;
+  }
+  
+  .response {
+    font-family: "Silkscreen", sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    color: #A63446;
+    margin: 1rem 0 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .responsetext {
+    font-size: 1.1rem;
+    color: #075781;
+    padding: 0 1rem;
+    max-width: 65ch;
+    margin: 0 auto 1rem;
+  }
+  
+  footer {
     font-family: "Afacad Flux", sans-serif;
-    font-size: 1rem; 
-    color: grey;
-    margin: 2em auto;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    line-height: 1.3;
-}
-
-li {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  footer li {
     color: #085f63;
-}
-
-i {
+  }
+  
+  i {
     color: goldenrod;
-}
-
-
-/* A link that hasn’t been visited. */
-a:link { color: black; }
-
-/* After you’ve visited the link. */
-a:visited { color:#085f63;}
-
-/* Change the color when the mouse is over it. */
-a:hover { color: #49beb7;}
-
-/* And when the mouse is clicked. */
-a:active { color: #ff5959;}
+  }
+  
+  a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:link { color: black; }
+  a:visited { color: #085f63; }
+  a:hover { color: #49beb7; }
+  a:active { color: #ff5959; }
+  a:focus {
+    outline: 2px solid #49beb7;
+    outline-offset: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 4rem;
+    }
+    .sub {
+      font-size: 1.75rem;
+    }
+    .sarah-fullname,
+    .sarah-name,
+    .giampietro-fullname,
+    .giampietro-name {
+      font-size: 2.5rem;
+    }
+    .sh, .rg, .responsetext {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 5rem;
+    }
+    .sub {
+      font-size: 2rem;
+    }
+    .button {
+      font-size: 1.4rem;
+    }
+    .response {
+      font-size: 3rem;
+    }
+    .sh, .rg, .responsetext {
+      padding: 0;
+    }
+  }
+  
